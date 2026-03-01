@@ -99,7 +99,7 @@ function result() {
       document.getElementById("C9").value=cumWtRetainedonpan.toFixed(2);
 
       if (cumWtRetainedonpan != WtTotaln) { 
-         alert(" weight of sample is not equals to total weight retained. Hence recheck the weight retained on each seive.  the wt of sample Should be equal to  total weight ratained");
+         alert(cumWtRetainedonpan + " gms is the cumulative retained weight. But the wt. of sample is  " + WtTotaln +" gms.  the both value should be equal. hence recorrect the same");
          
       } else {
 
