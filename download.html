@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="button" onclick="export_data()" value="export">
+    <br>
+    <table id="data">
+<tr>
+<td> sl. no</td>
+<td> name</td>
+<td> age</td>
+</tr>
+<tr>
+<td> 1</td>
+<td> jayaraj</td>
+<td> 50</td>
+</tr>
+
+    </table>
+// https://cdnjs.com/libraries/xlsx
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+
+    <script>
+function export_data() {
+
+    let data=document.getElementById('data');
+    var fp=XLSX.utils.table_to_book(data,{sheet:'jayaraj'});
+    XLSX.write(fp,{
+        bookType:'xlsx',
+        type: 'base64'
+    });
+
+    XLSX.writeFile(fp,'test.xlsx');
+    
+}
+
+    </script>
+</body>
+</html>
+
+
+
