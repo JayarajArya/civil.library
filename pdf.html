@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Pdf-download</title>
+    <style>
+        td,th {
+
+    border: 1px solid black;
+}
+
+table {
+    background-color: chartreuse;
+}
+    </style>
+</head>
+<body>
+
+    <table id="data">
+<thead>
+<tr>
+  <th colspan="7"> GRADING ANALYSIS FOR WMM ( WET MIX MECADAM )</th>
+</tr>
+<tr>
+   <th colspan="7"> (Gradtion Analysis  as per  <a href="https://drive.google.com/file/d/13RvOvC1lCt5k-6rUiAvrqXcEUpzmNN51/view" target="_blank">MORTH Specification Table 400-13)</th>
+</tr>
+<tr>
+   <th colspan="7"> </th>
+</tr>
+<tr>
+    <th colspan="2">Name of work</th>
+    <th colspan="3"> <textarea name="" id="" style="width: 99%;"></textarea></th>
+    <th>Estimated cost Rs. in lakhs</th>
+    <th> <input type="text"></th>
+</tr>
+<tr>
+    <th colspan="2">Agency</th>
+    <th colspan="3"><textarea name="" id="" style="width: 99%;"></textarea></th>
+    <th>Wt. of Sample</th>
+    <th><input type="text"></th>
+</tr>
+<tr>
+    <th colspan="2">Location/ chainage</th>
+    <th colspan="3"><textarea name="" id="" style="width: 99%;"></textarea></th>
+    <th>Date of testing</th>
+    <th><input type="text"></th>
+</tr>
+<tr>
+   <th colspan="7"> </th>
+</tr>
+</thead> 
+<br> <br>
+<tbody>
+<tr>
+    <th>Sl.no</th>
+    <th>Seive Size in mm/ micron</th>
+    <th>Wt. of Sample ratained in gms</th>
+    <th>Cumulative Wt. ratained in gm</th>
+    <th>% Cumulative Wt.ratained in gms</th>
+    <th>% of passing in gms</th>
+    <th>Requiremet of passing %</th>
+</tr>
+<tr>
+    <td>1</td>
+    <td>53 mm</td>
+    <td><input type="text" style=" border: none; border-collapse: collapse; width: 95%;" id="R1"></td>
+    <td> <input type="text" style="border: none;border-collapse: collapse; width: 95%;" readonly placeholder="readonly" id="C1"></td>
+    <td><input type="text" style="border: none;border-collapse: collapse; width: 95%;" readonly placeholder="readonly" id="P1"></td>
+    <td> <input type="text" style="border: none;border-collapse: collapse; width: 95%;" readonly placeholder="readonly" id="PS1"></td>
+    <td><input type="text" style="border: none;border-collapse: collapse; width: 95%;" readonly placeholder="100" id="RE1"> </td>
+</tr>
+<tr>
+    <td>2</td>
+    <td>45 mm</td>
+    <td><input type="text" style=" border: none; border-collapse: collapse; width: 95%;" id="R1"></td>
+    <td> <input type="text" style="border: none;border-collapse: collapse; width: 95%;" readonly placeholder="readonly" id="C1"></td>
+    <td><input type="text" style="border: none;border-collapse: collapse; width: 95%;" readonly placeholder="readonly" id="P1"></td>
+    <td> <input type="text" style="border: none;border-collapse: collapse; width: 95%;" readonly placeholder="readonly" id="PS1"></td>
+    <td><input type="text" style="border: none;border-collapse: collapse; width: 95%;" readonly placeholder="95-100" id="RE1"> </td>
+</tr>
+<tr>
+    <td>3</td>
+    <td>22.4 mm</td>
+    <td><input type="text" style=" border: none; border-collapse: collapse; width: 95%;" id="R1"></td>
+    <td> <input type="text" style="border: none;border-collapse: collapse; width: 95%;" readonly placeholder="readonly" id="C1"></td>
+    <td><input type="text" style="border: none;border-collapse: collapse; width: 95%;" readonly placeholder="readonly" id="P1"></td>
+    <td> <input type="text" style="border: none;border-collapse: collapse; width: 95%;" readonly placeholder="readonly" id="PS1"></td>
+    <td><input type="text" style="border: none;border-collapse: collapse; width: 95%;" readonly placeholder="60-80" id="RE1"> </td>
+</tr>
+<tr>
+    <td>4</td>
+    <td>11.2 mm</td>
+    <td><input type="text" style=" border: none; border-collapse: collapse; width: 95%;" id="R1"></td>
+    <td> <input type="text" style="border: none;border-collapse: collapse; width: 95%;" readonly placeholder="readonly" id="C1"></td>
+    <td><input type="text" style="border: none;border-collapse: collapse; width: 95%;" readonly placeholder="readonly" id="P1"></td>
+    <td> <input type="text" style="border: none;border-collapse: collapse; width: 95%;" readonly placeholder="readonly" id="PS1"></td>
+    <td><input type="text" style="border: none;border-collapse: collapse; width: 95%;" readonly placeholder="40-60" id="RE1"> </td>
+</tr>
+<tr>
+    <td>5</td>
+    <td>4.75 mm</td>
+    <td><input type="text" style=" border: none; border-collapse: collapse; width: 95%;" id="R1"></td>
+    <td> <input type="text" style="border: none;border-collapse: collapse; width: 95%;" readonly placeholder="readonly" id="C1"></td>
+    <td><input type="text" style="border: none;border-collapse: collapse; width: 95%;" readonly placeholder="readonly" id="P1"></td>
+    <td> <input type="text" style="border: none;border-collapse: collapse; width: 95%;" readonly placeholder="readonly" id="PS1"></td>
+    <td><input type="text" style="border: none;border-collapse: collapse; width: 95%;" readonly placeholder="25-40" id="RE1"> </td>
+</tr>
+<tr>
+    <td>6</td>
+    <td>2.36 mm</td>
+    <td><input type="text" style=" border: none; border-collapse: collapse; width: 95%;" id="R1"></td>
+    <td> <input type="text" style="border: none;border-collapse: collapse; width: 95%;" readonly placeholder="readonly" id="C1"></td>
+    <td><input type="text" style="border: none;border-collapse: collapse; width: 95%;" readonly placeholder="readonly" id="P1"></td>
+    <td> <input type="text" style="border: none;border-collapse: collapse; width: 95%;" readonly placeholder="readonly" id="PS1"></td>
+    <td><input type="text" style="border: none;border-collapse: collapse; width: 95%;" readonly placeholder="15-30" id="RE1"> </td>
+</tr>
+<tr>
+    <td>7</td>
+    <td>600 micron</td>
+    <td><input type="text" style=" border: none; border-collapse: collapse; width: 95%;" id="R1"></td>
+    <td> <input type="text" style="border: none;border-collapse: collapse; width: 95%;" readonly placeholder="readonly" id="C1"></td>
+    <td><input type="text" style="border: none;border-collapse: collapse; width: 95%;" readonly placeholder="readonly" id="P1"></td>
+    <td> <input type="text" style="border: none;border-collapse: collapse; width: 95%;" readonly placeholder="readonly" id="PS1"></td>
+    <td><input type="text" style="border: none;border-collapse: collapse; width: 95%;" readonly placeholder="8-22" id="RE1"> </td>
+</tr>
+<tr>
+    <td>8</td>
+    <td>75 micron</td>
+    <td><input type="text" style=" border: none; border-collapse: collapse; width: 95%;" id="R1"></td>
+    <td> <input type="text" style="border: none;border-collapse: collapse; width: 95%;" readonly placeholder="readonly" id="C1"></td>
+    <td><input type="text" style="border: none;border-collapse: collapse; width: 95%;" readonly placeholder="readonly" id="P1"></td>
+    <td> <input type="text" style="border: none;border-collapse: collapse; width: 95%;" readonly placeholder="readonly" id="PS1"></td>
+    <td><input type="text" style="border: none;border-collapse: collapse; width: 95%;" readonly placeholder="0-5" id="RE1"> </td>
+</tr>
+<tr>
+    <td>9</td>
+    <td>pan</td>
+    <td><input type="text" style=" border: none; border-collapse: collapse; width: 95%;" id="R1"></td>
+    <td> <input type="text" style="border: none;border-collapse: collapse; width: 95%;" readonly placeholder="readonly" id="C1"></td>
+    <td><input type="text" style="border: none;border-collapse: collapse; width: 95%;" readonly placeholder="readonly" id="P1"></td>
+    <td> <input type="text" style="border: none;border-collapse: collapse; width: 95%;" readonly placeholder="---" id="PS1"></td>
+    <td><input type="text" style="border: none;border-collapse: collapse; width: 95%;" readonly placeholder="---" id="RE1"> </td>
+</tr>
+
+
+</tbody>
+
+
+
+
+    </table>
+    <input type="button" onclick="export_data()" value="export"> 
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+
+    <script>
+function export_data() {
+
+    let data=document.getElementById('data');
+    var fp=XLSX.utils.table_to_book(data,{sheet:'jayaraj'});
+    XLSX.write(fp,{
+        bookType:'xlsx',
+        type: 'base64'
+    });
+
+    XLSX.writeFile(fp,'test.xlsx');
+    
+}
+    </script>
+   
+</body>
+</html>
